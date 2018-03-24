@@ -1,0 +1,24 @@
+{
+    "name": "ospek/cron",
+    "description": "cron boilerplate",
+    "type": "project",
+    "require": {
+        "league/climate": "^3.2",
+        "peppeocchi/php-cron-scheduler": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "squizlabs/php_codesniffer": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ospek project",
+            "email": "os-pek@github.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-update-cmd": ["php cron.php start"]
+        }
+}
