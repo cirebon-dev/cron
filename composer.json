@@ -17,8 +17,5 @@
             "email": "os-pek@github.io"
         }
     ],
-    "minimum-stability": "dev",
-    "scripts": {
-        "post-update-cmd": ["php cron.php start"]
-        }
+    "minimum-stability": "dev"
 }
